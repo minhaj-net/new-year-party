@@ -139,3 +139,45 @@ main{
     padding: 16px 32px  ;
 
 }
+/* beat offer section */
+.best-offer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.offer-heading1{
+    font-size: 24px;
+    font-weight: 500px;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+.offer-heading2{
+    font-size: 48px;
+    font-weight: 900px;
+    color: #070211;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.offer-para{
+    font-size: 20px;
+    color: #070211;
+    opacity: 60%;
+    margin-top: 0;
+}
+.offer-middle{
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+.number{
+    font-size: 48px;
+    font-weight: 700px;
+    color: #FF0000;
+}
+.number-para{
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+    opacity: 60%;
+}
