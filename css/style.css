@@ -1,0 +1,35 @@
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.banner{
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    margin: 40px;
+
+
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color:#070211 ;
+    border-radius: 16px;
+}
+.text-over-image{
+    position: absolute;
+    top:50%;
+    left:50%;
+      transform: translate(-50%, -50%);
+    text-align: center;
+}
+.banner-frist-title{
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+.banner-second-title{
+    font-size: 72px;
+    color: rgba(255, 255, 255, 1);
+}
+/* discount section */
