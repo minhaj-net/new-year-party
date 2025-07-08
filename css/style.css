@@ -61,6 +61,10 @@ main{
     height: auto;
     display: block;
     background-color: rgba(7, 2, 17, 1);
+     border-radius: 20px;
+    
+
+ 
 }
 .mid-night{
     position:relative ;
@@ -90,4 +94,48 @@ main{
     padding: 10px;
     text-decoration: none;
 }
+.mid-night-img{
+    border-radius: 50px;
+}
 /* party time section*/
+.party-container{
+     position: relative;
+}
+.party-time{
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(#FF0000,#070211,#FFFFFF);
+    opacity: 15%;
+    margin-top: 80px;
+    border-radius: 20px;
+   
+}
+.party-time-title{
+    font-size: 32px;
+    font-weight: 600px;
+    color: black;
+    opacity: none;
+}
+.party-time-over-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} 
+.party-time-clr{
+    color: #FF0000;
+    padding: 5px;
+}
+.party-time-btn{
+    margin-bottom: 110px;
+    text-align: center;
+    width: 167px;
+    height: 56px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px  ;
+
+}
