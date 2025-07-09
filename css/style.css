@@ -309,3 +309,42 @@ main{
       font-size: 16px;
       transition: background 0.3s;
 }
+/* footer section */
+footer{
+    max-width: 1600px;
+    height: 609px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #070211;
+    margin-top: 120px;
+}
+.footer-contact{
+    display: flex;
+    gap: 790px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.footer-icon{
+
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+hr{
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.last-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 790px;
+    margin-top: 100px;
+}
+.footer-text{
+    font-size: 24px;
+    font-weight: 500px;
+    color: #FFFFFF;
+}
